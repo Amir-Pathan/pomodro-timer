@@ -10,7 +10,7 @@ function Countdown(){
 
     const [isBreak,setBreak] = useState(false)
 
-    let timeout;
+    var timeout;
 
     useEffect(()=>{
 
